@@ -196,7 +196,7 @@ def action():
         except IOError:
             print ("[!] File Not Found")
             raw_input("\n[ Back ]")
-            blackmafiax()
+            axi()
     elif peak =='0':
         login()
     else:
