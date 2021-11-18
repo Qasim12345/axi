@@ -184,7 +184,7 @@ def action():
         action()
     elif peak =="1":              
         os.system("clear")
-        print logo2
+        print logo
         print "Put  number of pakistan country Example: 01,02,11,21,32,45"+'\n'
         print ' Enter  code 1 to 49'
         try:
