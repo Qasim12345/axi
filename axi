@@ -115,7 +115,7 @@ def ip():
 
 def log_menu():
     os.system('clear')
-    print logo1
+    print logo
     print "\033[1;96m[1]\x1b[1;93m Random number "
     time.sleep(0.05)
     print '\x1b[1;95m[0]\033[1;92m Exit '
@@ -130,7 +130,7 @@ def pilih_login():
         Zeek()
 def Zeek():
     os.system('clear')
-    print logo1
+    print logo
     print '\x1b[1;93m[1] AXI method ( Best slow )'
     time.sleep(0.05)
     print '\x1b[1;92m[0] \033[1;93m Back'
@@ -144,7 +144,7 @@ def action():
         action()
     elif peak =="1":              
         os.system("clear")
-        print logo2
+        print logo
         print "Put  number of pakistan country Example: 01,02,11,21,32,45"+'\n'
         print ' Enter  code 1 to 49'
         try:
